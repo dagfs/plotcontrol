@@ -131,7 +131,7 @@ speed_pen_up = 90
 
 def draw_border():
     if plotter:
-        plotter.options.speed_pendown = 90
+        plotter.options.speed_pendown = 70
         plotter.update()
         plotter.moveto(PLOTTER_X_MIN, PLOTTER_Y_MIN)
         plotter.pendown()
